@@ -1,0 +1,37 @@
+https://leetcode.com/problems/asteroid-collision/description/
+
+
+
+start_time : 27072024_123035 
+
+Approach_1 : 
+
+First of all I don't have enough examples to understand this but I will write a code based on what I understood until now 
+
+so I take every two numbers and follow the rules as he said and return the list 
+
+sudo code : 
+
+i = 0 
+j = 1 
+while j < len(list):
+    if 
+
+I don't want to write here man it is all the same , well for sure I know a medium level one won't be this easy 
+
+what is the answer for [2,9,-10,5,4,3,2,1]
+assumption_1 = [2,-10,-10,] , but I feel this is the actual answer = [2,-10]
+
+so for this kind of situation we need to keep I value as the value that is appended in the list and we change to j when the situation is false 
+example : same question 
+
+first we check 2 and 9 , where i = 0 , j = 1 
+since both are same symbol we add 2 to the list 
+and change both i and j value 
+we check 9 and -10 , where i = 1 , j = 2 
+we add -10 to the list , i = 2 , j = 3 
+
+we check -10 and 5  , where i = 2 , j = 3
+we won't add to the list unless i value is changed 
+
+we do the same for all number 

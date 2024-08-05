@@ -1,0 +1,13 @@
+https://leetcode.com/problems/water-bottles-ii/ 
+
+20240609_141723 
+
+Approach_1 : 
+
+I don't see any problem like we have to do exactly as mentioned let's see how it goes 
+
+like I have an idea why not see the pattern there like since it is leet code I think there might be a way to solve it very easily and even if you follow the regular way I think it will show time limit exceeded for some problems so let see some pattern 
+
+example_1 : 13 and 6 so remove 6 then 7 and 7 we need to add on both side +1 which results in 8 and 7 again remove 7 and +1 both side = 2 , 8 since remove is greater than bottles existing we stop the loop , while we are doing this we add the removed bottles and remaining bottles to get answer list 6+7+2 = 15
+
+so we create a dictonary which stores all the elements mentioned 

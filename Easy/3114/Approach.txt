@@ -1,0 +1,11 @@
+https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/description/
+
+
+we I don't see any great deal here 
+let the format be xy:ab if a is missing fill it with 5 simillary if b fill it with 9 
+if x is missing fill with 1 
+only y value is tricky here it is depended on x , so if x is 1 then it is also 1 else 9 
+also check every value before filling like go in chronogicall order since there might not be any value given at all 
+
+sudo code :
+I don't think I need this 

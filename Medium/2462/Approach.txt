@@ -1,0 +1,67 @@
+https://leetcode.com/problems/total-cost-to-hire-k-workers/description/
+
+time_started : 19062024_124725
+
+Approach_1 : 
+
+I think the approach is straight forward there is no matter 
+
+sudo code : 
+
+class Solution:
+    def totalCost(self, costs: List[int], k: int, candidates: int) -> int:
+        first_group , second_group = split the given list 
+        # find minimum in both groups and select the one with lowest compared to this two 
+        # if they are tie select the first group one I mean remove it 
+        # now merge the lists and rotate again 
+        # if size is less than candidates then just select the minimum and remove it 
+        # all the while loop like this for i in range(k): 
+
+Failed : 
+
+This didn't work cause the pop method and the adding list is to much time complexity so it failed with time complexity thing 
+
+
+
+Even after doing all this it is still saying time limit exceeded I don't understand what to do 
+
+
+
+I am sorry I didn't solve this I just copied from best solution in internet looks like learning heapq is the only way to solve this efficiently 
+
+I will try to solve this after learning heapq 
+
+
+I have learned the basics just check that in learnings folder and heaps section 
+
+now let's solve this using heaps on my own 
+
+
+Approach_2 : 
+
+Even though I did many trails I didn't write that here so anyway let's take this heap as my second approach 
+
+we first take both front and back sides and convert them to heaps then we add this remaining indexes to it , that's it I think 
+
+sudo code : 
+
+import heapq 
+class Solution:
+    first_half = []
+    heapq.heapify
+    def totalCost(self, costs, k: int, candidates: int) -> int:
+
+
+finally after a hard work it is done 
+
+my code time taken = 6 seconds 
+Best solution  = 3 seconds 
+
+let's check why :
+
+most of the code is simillar but you took remaining code to solve , in his approach see that candidates*2+k this method is so greatly thought that it will not leave an situation like deleted number will not be added to the list again from cost  
+
+well if don't understand it clearly think until you understand it and don't close it 
+
+
+you didn't come up with the candidates*2+k formula because you didn't first evaluate some problems on your own 

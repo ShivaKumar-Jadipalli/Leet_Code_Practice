@@ -1,0 +1,14 @@
+https://leetcode.com/problems/jump-game-iii/description/
+
+
+Start_time = 20072024_114023 
+
+Approach_1 : 
+
+It seems like an easy problem all we need to do is create a binary tree and the left one is plus side and the right one is negative side 
+
+I am not writing the sudo code cause it is recursion man it is hard to visualize 
+
+just like a piece of cake it was completed but I was the last in terms of efficiency in the overall place 
+
+End_Time = 20072024_121518

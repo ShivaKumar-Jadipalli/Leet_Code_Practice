@@ -1,0 +1,87 @@
+100 Days of Deep Learning _ Course Announcement
+Activation Functions in Deep Learning _ Sigmoid_ Tanh and Relu Activation Function
+AdaGrad Explained in Detail with Animations _ Optimizers in Deep Learning Part 4
+Adam Optimizer Explained in Detail with Animations _ Optimizers in Deep Learning Part 5
+Attention Mechanism in 1 video _ Seq2Seq Networks _ Encoder Decoder Architecture
+Backpropagation in CNN _ Part 1 _ Deep Learning
+Backpropagation in Deep Learning _ Part 1 _ The What_
+Backpropagation Part 2 _ The How _ Complete Deep Learning Playlist
+Backpropagation Part 3 _ The Why _ Complete Deep Learning Playlist
+Bahdanau Attention Vs Luong Attention
+Batch Normalization in Deep Learning _ Batch Learning in Keras
+Bidirectional RNN _ BiLSTM _ Bidirectional LSTM _ Bidirectional GRU
+Cat Vs Dog Image Classification Project _ Deep Learning Project _ CNN Project
+CNN Architecture _ LeNet -5 Architecture
+CNN Backpropagation Part 2 _ How Backpropagation works on Convolution_ Maxpooling and Flatten Layers
+CNN Part 3 _ Convolution Operation
+CNN Vs Visual Cortex _ The Famous Cat Experiment _ History of CNN
+Comparing CNN Vs ANN  _ CampusX
+Customer Churn Prediction using ANN _ Keras and Tensorflow _ Deep Learning Classification
+Data Augmentation in Deep Learning _ CNN
+Data Scaling in Neural Network _ Feature Scaling in ANN _ End to End Deep Learning Course
+Deep RNNs _ Stacked RNNs _ Stacked LSTMs _ Stacked GRUs _ CampusX
+Dropout Layer in Deep Learning _ Dropouts in ANN _ End to End Deep Learning
+Dropout Layers in ANN _ Code Example _ Regression _ Classification
+Early Stopping In Neural Networks _ End to End Deep Learning Course
+Encoder Decoder _ Sequence-to-Sequence Architecture _ Deep Learning _ CampusX
+Exponentially Weighted Moving Average or Exponential Weighted Average _ Deep Learning
+Forward Propagation _ How a neural network predicts output_
+Gated Recurrent Unit _ Deep Learning _ GRU _ CampusX
+Gradient Descent in Neural Networks _ Batch vs Stochastics vs Mini Batch Gradient Descent
+Graduate Admission Prediction using ANN
+Handwritten Digit Classification using ANN _ MNIST Dataset
+How Backpropagation works in RNN _ Backpropagation Through Time
+How to Improve the Performance of a Neural Network
+Introduction to Transformers _ Transformers Part 1
+Keras Functional Model _ How to build non-linear Neural Networks_
+Keras Tuner _ Hyperparameter Tuning a Neural Network
+Lea
+Loss Functions in Deep Learning _ Deep Learning _ CampusX
+LSTM Architecture _ Part 2 _ The How_ _ CampusX
+LSTM _ Long Short Term Memory _ Part 1 _ The What_ _ CampusX
+LSTM _ Part 3 _ Next Word Predictor Using _ CampusX
+MLP Memoization _ Complete Deep Learning Playlist
+MLP Notation
+Multi Layer Perceptron _ MLP Intuition
+Nesterov Accelerated Gradient (NAG) Explained in Detail _ Animations _ Optimizers in Deep Learning
+Optimizers in Deep Learning _ Part 1 _ Complete Deep Learning Course
+Padding _ Strides in CNN _ CNN Lecture 4 _ Deep Learning
+Perceptron Loss Function _ Hinge Loss _ Binary Cross Entropy _ Sigmoid Function
+
+
+
+Perceptron Trick _ How to train a Perceptron _ Perceptron Part 2 _  Deep Learning Full Course ([:-10])
+Perceptron Trick _ How to train a Perceptron _ Perceptron Part 2 _  Deep Learning Full Course(480P).mp4
+Perceptron Trick _ How to train a Perceptron _ Perceptron Part 2 _ Deep Learning Full 
+
+
+
+
+Pooling Layer in CNN _ MaxPooling in Convolutional Neural Network
+Pretrained models in CNN _ ImageNET Dataset _ ILSVRC _ Keras Code
+Problem with Perceptron
+Problems with RNN _ 100 Days of Deep Learning(72
+Recurrent Neural Network _ Forward Propagation _ Architecture
+Regularization in Deep Learning _ L2 Regularization in ANN _ L1 Regularization _ Weight Decay in ANN
+Relu Variants Explained _ Leaky Relu _ Parametric Relu _ Elu _ Selu _ Activation Functions Part 2
+RMSProp Explained in Detail with Animations _ Optimizers in Deep Learning Part 5
+RNN Sentiment Analysis _ RNN Code Example in Keras _ CampusX(72
+Scaled Dot Product Attention _ Why do we scale Self Attention_
+Self Attention Geometric Intuition _ How to Visualize Self Attention _ CampusX
+Self Attention in Transformers _ Deep Learning _ Simple Explanation with Code_
+SGD with Momentum Explained in Detail with Animations _ Optimizers in Deep Learning Part 2
+The Epic History of Large Language Models (LLMs) _ From LSTMs to ChatGPT _ CampusX
+Types of Neural Networks _ History of Deep Learning _ Applications of Deep Learning
+Types of RNN _ Many to Many _ One to Many _ Many to One RNNs
+Vanishing Gradient Problem in ANN _ Exploding Gradient Problem _ Code Example
+Weight Initialization Techniques _ What not to do_ _ Deep Learning(72
+What does a CNN see_ _ Visualizing CNN Filters and Feature Maps _ CampusX
+What is a Perceptron_ Perceptron Vs Neuron _ Perceptron Geometric Intuition
+What is Convolutional Neural Network (CNN) _ CNN Intution
+What is Deep Learning_ Deep Learning Vs Machine Learning _ Complete Deep Learning Course
+What is Multi-head Attention in Transformers _ Multi-head Attention v Self Attention _ Deep Learning
+What is Self Attention _ Transformers Part 2 _ CampusX
+What is Transfer Learning_ Transfer Learning in Keras _ Fine Tuning Vs Feature Extraction
+Why is Self Attention called _Self__ _ Self Attention Vs Luong Attention in Depth Lecture _ CampusX
+Why RNNs are needed _ RNNs Vs ANNs _ RNN Part 1
+Xavier_Glorat And He Weight Initialization in Deep Learning

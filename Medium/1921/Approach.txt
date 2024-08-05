@@ -1,0 +1,47 @@
+https://leetcode.com/problems/eliminate-maximum-number-of-monsters/description/
+
+start_time : 27062024_140823 
+
+Approach_1 : 
+This time I won't make mistakes like previous ones , let's see the question is faily simple but we have 2 problems 
+1. how to take care of X's in the list and even if we take them as negative numbers when I use min() function the negative function will come first 
+2. How to use heaps to solve this question like even here we have to deal with those negative numbers somehow and again we need to subtract their speeds each time how to do that when the order of the heap is different from list 
+
+
+Okay this is what I am thinking , we have to remove find the nearest table to the given number to find the number of rounds and convert it to heap so we can remove one by one and when two numbers are negative or zero we can stop the loop and return the count of operations 
+
+
+example :   dist = [1,3,4], speed = [1,1,1] , expected answer = 3
+
+rounds = [1,3,4] since all elements in speed are one , So rounds = [1/1,3/1,4/1] which results in [1,3,4] so we convert it to heaps and remove the smallest one each time and will get 3 as output 
+
+
+example_2 :  dist = [1,1,2,3], speed = [1,1,1,1]
+
+round = [1/1,1/1,2/1,3/1] = [1,1,2,3] here the rule is the next smaller number should be greater than the last element we removed so it is false and answer is only 1 
+
+example_3 : dist = [3,2,4], speed = [5,3,2]
+
+round = [3/5,2/3,4/2] = [0,0,2] as you know answer is only 1    
+
+I think this will work without much time loss as manual counting let's check 
+
+
+Error : dist = [4,2,3] , speed = [2,1,1] 
+
+in this example round=[4//2,2//1,3//1] = [2,2,3] since there are two 2's the code will fail , So another idea is instead of checking them with previous number we need to check it with the number of rounds completed like 
+
+
+example_4 : when rounds = [2,2,3] 
+we remove the first smallest element using heaps and increse answer +=1 when we are removing the second element since it is bigger than answer value we can let it pass which also favor the example_2 & example_3 
+
+Finding the length of list is same in both normalist and heaps 
+
+
+
+
+Best solution Analysis : 
+
+After seeing this I realized why the hell did you use heaps like why not just sort them , You after a lot of strugle introduced math.ceil while he just minimized the distance value by 1 before sending it division , If you haven't over thinked this the answer would have been simple 
+
+completed time : 27062024_212123 

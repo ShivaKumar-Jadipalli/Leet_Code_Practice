@@ -1,0 +1,5 @@
+this is just random delete this when you are really solving problem 
+
+first create a txt files with the mp4 file names and experiment on them instead of copy pasting the whole video file just to see if names are chainging or not 
+
+after doing that create a zip file of it so we can extract it when something goes wrong with the names 

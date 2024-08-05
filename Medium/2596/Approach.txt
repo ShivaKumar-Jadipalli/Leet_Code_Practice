@@ -1,0 +1,27 @@
+https://leetcode.com/problems/check-knight-tour-configuration/description/ 
+
+
+Start_time : 24072024_110523 
+
+Approach_1 : 
+
+Imagine the given knight at 4,4 in a 8*8 board but the index starts with 0 
+so there will be only 8 possible moves for it and they are 
+(2,3) , (2,5) , (6,3) , (6,5) and its reverse 
+
+if you see here only 4 numbers are present that is (2,3,5,6) so two number after and before number 4 
+
+All we have to do is create this list from the given position and check two numbers up after that delete that number and check below two numbers 
+
+example : (2,3,5,6) 
+
+here for number 2 we check with only 3 and 5 and there reverse after that we check from number 6 and check only 3,5 and their reverse that's it I think , Just create rules for checking out of board scope for irregularities but always create this list even if it consists negative numbers 
+
+
+When writing code I realized something that I need to check another axis like (5,2) as start position and I found that my approach is wrong and here is the corrected one 
+
+see for (5,2) the possible positions are well you know them I just have to mention then normally instead of rushing directly for loops 
+
+
+
+End_Time = 24072024_124052 

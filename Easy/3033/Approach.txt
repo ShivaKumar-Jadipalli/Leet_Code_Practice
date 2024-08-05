@@ -1,0 +1,3 @@
+https://leetcode.com/problems/modify-the-matrix/
+
+like you were hesistant to use more for loops as it would increase the run time but you didn't take into account that converting to numpy and doing all this stuff is increasing more time  

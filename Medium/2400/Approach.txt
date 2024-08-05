@@ -1,0 +1,28 @@
+
+
+
+start_time : 23062024_153023 
+
+Approach_1 : 
+
+Questions: 
+1.   When to find out that there is no answer at all 
+a.   if the absolute difference between them is an odd number then only odd number of k value is possible and if even then only even numbers 
+
+example : If x = 2 , y = 5 then diff = 3 so only odd numbers like 3,5,7,... are divisible also remember that k value should be greater than or equal to diff , 
+
+
+
+let's if there are really 21 paths from 2,5 in 7 steps 
+
+using the outside numbers that is n>7 and n<2 : 
+
+1. 2,3,4,5,6,7,6,5
+2. 2,3,4,5,6,5,6,5
+3. 2,1,0,1,2,3,4,5
+4. 2,1,2,1,2,3,4,5
+5. 2,3,2,3,4,5,6,5
+
+I think that's it 
+
+6. 2,3,4,3,

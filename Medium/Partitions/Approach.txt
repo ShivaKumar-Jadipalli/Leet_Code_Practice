@@ -1,0 +1,32 @@
+Start Time : 05072024_123523 
+
+Approach_1 : 
+As you can see in the image we will have two types of list , It was better than the approach that I thought of 
+
+coding in general language : 
+
+rules : 
+1. following numbers shouldn't be greater than the first number it may be equal but not greater 
+2. when adding the numbers one of them should be 1 or else end that tree , like 3+1 but not 2+2 or other 
+
+Requirements : 
+1. Need to keep track of all nodes created 
+
+
+let's write using 8 as an example 
+first I will directly send [2111111] and set self.answer = 1 by default 
+first I will find the index of 1 and it will return the first occurence by default so I will add that and minus 1 at first and call the function like if  s = index(1) = 1 then 
+
+# if index is really one then no need to check if it is greater than the first element or not 
+list[s-1:s] = sum(list[s-1:s]) # make sure it is not greater than first element 
+call function 
+list[s:s+1] = sum(list[s:s+1])
+call function 
+
+Tasks to do : 08072024 
+Add reading bussiness paper task to daily activities 
+Vijay needs government job check that with central and state and which group to take and set college accordingly by checking the link that dad sent 
+Prepare resume 
+check that ssc website 
+call vignesh 
+during web options put all certificates in drive 

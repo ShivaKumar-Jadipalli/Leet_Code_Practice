@@ -1,0 +1,3 @@
+https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-ii/description/
+
+I want to paste another persons solution so I can download some test cases and proceed further based on the results like I can see there is a pattern and I need more data but I can't write manually for all that data so I am willing to download someones code 

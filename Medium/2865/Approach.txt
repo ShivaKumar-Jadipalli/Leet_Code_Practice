@@ -1,0 +1,13 @@
+https://leetcode.com/problems/beautiful-towers-i/description/  
+
+time_started  = 13062024_113625 
+
+Approach_1 : I already wrote in notes so I don't feel like writing here 
+
+didn't work 
+reason : 
+You should cover all types of error cases in your mind like I know that test cases before hand but I didn't think that he would give that here , next time don't make that mistake 
+
+
+break = 13062024_130623 
+

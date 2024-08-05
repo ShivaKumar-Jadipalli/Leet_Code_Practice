@@ -1,0 +1,60 @@
+https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/description/
+
+start_time = 03052024_080923 
+break time = 50 mins , water tank and bathing 
+re start time = 03052024_093534
+Approach_1  : 
+
+I will create a dictonary of alphabets and create a loop of given  string and when it matches that key I will increment +1 and if it is greater than 2 I will store the counted values in a list and set count = 0 again finally I will return the max value in answer list 
+
+sudo code: 
+=> answer storing list 
+=> alphabets dictonary
+=> answer_count 
+=> for count in len(given_string)
+    => for word in given_string[count:]:
+        => if less than 2 add +1 
+        => else: 
+            => append the values 
+            => re assign alphabets values freshly
+            => note this current word 
+    => add remaining value in answer_count 
+return max(answer_list)
+
+well it worked I have checked it 
+
+
+Best code analysis : 
+
+well I didn't understand it much but I can see that you don't have to initiate a dictonary of alphabets instead note the values when they come that is fine 
+
+
+let's check that , I will change my code now but will keep a copy here 
+
+class Solution:
+    def maximumLengthSubstring(self, s: str) -> int:
+        answer_list = []
+        alphabets = {'a' : 0  , 'b' : 0  , 'c' : 0  , 'd' : 0  , 'e' : 0  , 'f' : 0  , 'g' : 0  , 'h' : 0  , 'i' : 0  , 'j' : 0  , 'k' : 0  , 'l' : 0  , 'm' : 0  , 'n' : 0  , 'o' : 0  , 'p' : 0  , 'q' : 0  , 'r' : 0  , 's' : 0  , 't' : 0  , 'u' : 0  , 'v' : 0  , 'w' : 0  , 'x' : 0  , 'y' : 0  , 'z' : 0 }
+        for count in range(len(s)):
+            answer_count = 0
+            alphabets = {'a' : 0  , 'b' : 0  , 'c' : 0  , 'd' : 0  , 'e' : 0  , 'f' : 0  , 'g' : 0  , 'h' : 0  , 'i' : 0  , 'j' : 0  , 'k' : 0  , 'l' : 0  , 'm' : 0  , 'n' : 0  , 'o' : 0  , 'p' : 0  , 'q' : 0  , 'r' : 0  , 's' : 0  , 't' : 0  , 'u' : 0  , 'v' : 0  , 'w' : 0  , 'x' : 0  , 'y' : 0  , 'z' : 0 }
+            for word in s[count:]:
+                if alphabets[word]<2:
+                    alphabets[word]+=1
+                    answer_count+=1
+                else:
+                    answer_list.append(answer_count)
+                    answer_count=1
+                    alphabets = {'a' : 0  , 'b' : 0  , 'c' : 0  , 'd' : 0  , 'e' : 0  , 'f' : 0  , 'g' : 0  , 'h' : 0  , 'i' : 0  , 'j' : 0  , 'k' : 0  , 'l' : 0  , 'm' : 0  , 'n' : 0  , 'o' : 0  , 'p' : 0  , 'q' : 0  , 'r' : 0  , 's' : 0  , 't' : 0  , 'u' : 0  , 'v' : 0  , 'w' : 0  , 'x' : 0  , 'y' : 0  , 'z' : 0 }
+                    alphabets[word]=1
+            answer_list.append(answer_count)
+        return max(answer_list)
+    
+answer = Solution().maximumLengthSubstring("ccbcb")
+print(answer)
+
+
+
+now I am perfecting the original final inspired by the best solution 
+
+well it is passing all test cases 

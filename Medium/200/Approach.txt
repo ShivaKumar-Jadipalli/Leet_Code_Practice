@@ -1,0 +1,13 @@
+https://leetcode.com/problems/number-of-islands/description/  
+
+This wasn't in the excel file but I just want to practice this again 
+
+start_time : 22062024_152123 
+
+Approach_1 : 
+
+I still remember this how to solve we create 4 calls for four sides and when we visit that we change it to zero that's it nothing more 
+
+completed : 22062024_155123 
+
+I don't understand the best solution but anyways we solved this that much is enough I think 

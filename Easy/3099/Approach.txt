@@ -1,0 +1,18 @@
+https://leetcode.com/problems/harshad-number/description/
+
+start_time = 30042024_170000
+
+Approach_1 : I see that he is asking weather the given number sum is prime or not 
+
+
+sudo code : 
+math 
+for i in range(math.sqrt):
+    if it is divisible by given number 
+        return false 
+return true after loop 
+that's it then 
+
+
+conclusion : this is the motherfucking delusional like what kind of brain fog do you have you couldn't even read the question clearly your approach doesn't have a fucking thing to do with the given question 
+

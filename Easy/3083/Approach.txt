@@ -1,0 +1,11 @@
+https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/description/ 
+
+start_time = 30042024_150235
+
+Approach_1 :
+I wrote in book but I did a huge mistake I didn't take all sample test cases into account while solving this problem , This was a huge mistake like I wasted some time writing code , Remember run all test cases while solving 
+
+
+completed_time = 30042024_163725
+
+I didn't think this whole actully I know this solution from the start but I just that it is a time waste if we check all words and we just need a formula to pinpoint the exact area 

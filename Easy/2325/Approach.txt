@@ -1,0 +1,14 @@
+https://leetcode.com/problems/decode-the-message/description/
+
+
+start time : 30042024_104125 
+
+break time another work : 30042024_110335
+start time again : 30042024_114136
+done time : 30042024_120925 
+
+we I didn't write approach here cause I just wrote it in my book but it worked fine the thing is I didn't take space into account I thought that I can watch it later but it turns out a lot of code has to change for space so if you want to research a topic just research it on the spot and get to writing immediately instead of solving it while solving it during coding 
+
+Best Solution : 
+
+well the intiliazation of alphabets is a bit time consuming in coding interview he just used it like a long string , Remaining all are quite the same let's test the speed by chainging our code 

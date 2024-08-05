@@ -1,0 +1,79 @@
+https://www.youtube.com/watch?v=_rffD1ho_-w 
+This video clearly explains how to solve the game manually 
+
+https://leetcode.com/problems/sudoku-solver/description/
+
+
+
+Start_time : 16062024_163023 
+
+Approach_1 : 
+
+First let's see the techniques to solve manually 
+
+Rules of the game :
+1. No number should be repeated in the row or column or block 
+
+Techniques : 
+Consider 3 sections like row = [1,2,3] and column=[1,...9] as section_1 and section_2 ==> row = [4,5,6] and column=[same] and so on 
+
+In Section_1 if a number appears in two rows then it should be present in the third row and filtering the columns should be done according to the rules of the game 
+
+Example : 
+Imagine number 4 in [0,2] , [1,5] so it should be also present in [2,x]  , rows and columns are zero indexed , "x" is filtered according to rules 
+
+Basic logics : 
+
+1. If there is only one cell available for a particular number then it is the numbers place 
+2. If only one number is missing in either row , column or block then fill it by manually counting the missing number 
+
+
+Note: 
+1. I cannot check my program without generating random test cases , So create a test program with two classes one for testing and another for creating 
+2. Always check the noted cells again and again so that we could find a way to remove the numbers until only one is remaining 
+
+
+
+Generator.py 
+Below is the details of how I wrote that program 
+
+I wrote the filled puzzle from the tutorial and wrote program to check it , 
+
+Approach_1 : 
+
+Looks like creating a random big number and seeing if it is a valid suduko puzzle or not seems like computational heavy , Instead I have to find another way 
+
+
+I don't think we need a class to do the checking instead a basic function is fine , So we need to find a way to access only the first value in the column and access the values in a 3*3 matrix 
+
+
+first I created random numbers and checked if it was a valid program or not 
+
+
+Realization : 
+
+why ra shiva why are you making things complex there is already a problem in leet code and we can just solve that instead of doing all this complex things 
+
+
+
+Finally somehow solved it on my own but I cannot understand how to submit it in the leet code anyways , let's see how others are solving it using backtracking or something 
+
+Error_1 : 
+I tried to solve it based the video explanation but in a different way that 
+
+my approach : 
+I will create a dictonary and store all possible numbers in a particular cell and if any cell has only one possible value then obviously it is the answer right so I fill that cell with that value and refill the dictionary values again , again I fill them and keep rotating until all the cells are filled 
+
+so the error is there are some kind of problems where no cell has a single value in the dictionary so the loop just keeps rotating until limit reached , 
+
+
+I need to think of another approach but before that I would like to see how this woman solved it https://youtu.be/tvP_FZ-D9Ng?si=H-lWr4W9l66WcMEM 
+
+
+According to the video : 
+
+Approach_1 : 
+
+Fill the cell with numbers and see if this is a valid suduko or not , If not refill again with another combination and check again keep on doing it until you find the right one 
+
+Like this seems fine but there is too much complexity right also without jumping right into action just watch the video until the end and then write your plan 

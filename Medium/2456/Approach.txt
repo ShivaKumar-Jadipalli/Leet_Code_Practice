@@ -1,0 +1,27 @@
+https://leetcode.com/problems/most-popular-video-creator/description/
+
+Start_time = 21062024_192023
+Approach_1 : 
+We create two dictonaries one for numbers and one for storing variables let's see how it shows 
+
+
+break_time = 21062024_195023 
+
+You didn't understand the question correctly that's why it has become too late 
+
+
+
+
+database = {"alice":{"ids":["one","three"],"views":[5,5]},
+            "bob"  :{"ids":["two"] , "views":[10]},
+            "chris":{"ids":["four"] , "views":[4]}}
+
+database = {"alice" : {"ids" : ["a","b","c"] , "views" : [1,2,2]}}
+
+
+
+completed : 22062024_151123 
+
+I don't consider the best solution as best one cause the time difference is too low like only 200ms , 
+
+Analysis : As per the best solution I know that I could create one like that but I don't want the program to search for a keyword if the list is too much so I just used defaultdict 
